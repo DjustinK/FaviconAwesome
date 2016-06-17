@@ -61,9 +61,6 @@
             context.fillStyle = color;
             context.fillText(content, (canvas.width - iconWidth) / 2, canvas.height / 2);
 
-            for(var icons = document.querySelectorAll('link[rel*=icon]'), i = 0, l = icons.length; i < l; i++)
-                icons[i].parentNode.removeChild(icons[i]);
-
             if(category === 'link'){
                 link.setAttribute('rel', rel);
                 link.setAttribute('href', canvas.toDataURL('image/png'));
