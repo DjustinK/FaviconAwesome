@@ -5,4 +5,5 @@ A javascript method to convert a font-awesome class into several favicons on the
 ## Example:
     var faviconClass  = 'fa-fort-awesome'
     var faviconColor = '#FF6B6B';
-    FaviconAwesome(faviconClass, faviconColor);
+    var faviconBackground = '#FFFFFF'; // Optional, default is transparant
+    FaviconAwesome(faviconClass, faviconColor, faviconBackground);
